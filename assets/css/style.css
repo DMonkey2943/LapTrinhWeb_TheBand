@@ -63,6 +63,10 @@ html{
     margin-top: 16px !important;
 }
 
+.mt-32{
+    margin-top: 32px !important;
+}
+
 .btn{
     color: #fff;
     background-color: #000;
@@ -72,6 +76,7 @@ html{
     margin-top: 15px;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
 .btn:hover{
@@ -81,9 +86,9 @@ html{
 
 
 /* MAIN */
-#main{
+/* #main{
 
-}
+} */
 
 #header{
     height: 46px;
@@ -191,7 +196,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /*chieu cao = 50% chieu ngang*/
-    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat ;
+    background: url('../img/slider/slider1.jpg') top center / cover no-repeat ;
 }
 
 #slider .text-content{
@@ -210,11 +215,12 @@ html{
 #slider .text-description{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 3px #000;
 }
 
-#content{
+/* #content{
 
-}
+} */
 
 #content .content-section{
     width: 800px;
@@ -248,7 +254,7 @@ html{
 }
 
 #content .member-list{
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .member-name{
@@ -301,7 +307,7 @@ html{
 
 /* Places */
 .place-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 /* .place-item{
@@ -352,7 +358,15 @@ html{
 .contact-info i[class*="ti-"]{
     width: 30px;
     display: inline-block;
+}
 
+.contact-info a{
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover{
+    opacity: 1;
 }
 
 .contact-form{
